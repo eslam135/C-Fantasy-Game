@@ -1,0 +1,48 @@
+﻿  League.cpp
+C:\Users\User\source\repos\ProjectData\ProjectData\League.cpp(40,36): warning C4018: '<': signed/unsigned mismatch
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstddef(127,22): error C2676: binary '<': 'const _Ty' does not define this operator or a conversion to a type acceptable to the predefined operator
+          with
+          [
+              _Ty=Match
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstddef(126): message : while compiling class template member function 'bool std::less<_Ty>::operator ()(const _Ty &,const _Ty &) const'
+          with
+          [
+              _Ty=Match
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xutility(1518): message : see reference to function template instantiation 'bool std::less<_Ty>::operator ()(const _Ty &,const _Ty &) const' being compiled
+          with
+          [
+              _Ty=Match
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\queue(295): message : see reference to class template instantiation 'std::less<_Ty>' being compiled
+          with
+          [
+              _Ty=Match
+          ]
+C:\Users\User\source\repos\ProjectData\ProjectData\League.h(11): message : see reference to class template instantiation 'std::priority_queue<Match,std::vector<Match,std::allocator<Match>>,std::less<_Ty>>' being compiled
+          with
+          [
+              _Ty=Match
+          ]
+  Match.cpp
+  Team.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\list(1603,65): error C2676: binary '==': 'const _Ty' does not define this operator or a conversion to a type acceptable to the predefined operator
+          with
+          [
+              _Ty=Footballer
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\list(1602): message : while compiling class template member function 'auto std::list<Footballer,std::allocator<Footballer>>::remove(const _Ty &)'
+          with
+          [
+              _Ty=Footballer
+          ]
+C:\Users\User\source\repos\ProjectData\ProjectData\Team.h(13): message : see reference to class template instantiation 'std::list<Footballer,std::allocator<Footballer>>' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\list(1614,1): error C2451: a conditional expression of type 'void' is not valid
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\list(1614,22): message : Expressions of type void cannot be converted to other types
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\list(1603): message : see reference to function template instantiation 'auto std::list<Footballer,std::allocator<Footballer>>::remove_if<std::list<Footballer,std::allocator<Footballer>>::remove::<lambda_7bbee4e0d545f0b3d7c6339d5bb7fb5f>>(_Pr1)' being compiled
+          with
+          [
+              _Pr1=std::list<Footballer,std::allocator<Footballer>>::remove::<lambda_7bbee4e0d545f0b3d7c6339d5bb7fb5f>
+          ]
+  Generating Code...
